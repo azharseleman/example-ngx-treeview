@@ -1,0 +1,6 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<ngx-treeview [config]="config" [items]="items" (selectedChange)="onSelectedChange($event)">
+</ngx-treeview>
+<p>Selected items: {{selectedTreeviewItems | json}}</p>
+<div *ngFor="let treeviewItem of selectedTreeviewItems">{{treeviewItem}}</div>
+
