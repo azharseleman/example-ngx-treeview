@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
   //selectedTreeviewItems: TreeviewItem[];
   config = TreeviewConfig.create({
       hasAllCheckBox: false,
-      hasFilter: true,
+      hasFilter: false,
       hasCollapseExpand: true,
       decoupleChildFromParent: false,
       maxHeight: 400
